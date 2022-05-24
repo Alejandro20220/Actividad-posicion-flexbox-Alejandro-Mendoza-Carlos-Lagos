@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 5px;
+
+}
+
+nav a{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    justify-content: flex-end;
+
+}
+
+nav p{
+    display: flex;
+    color: black;
+}
+
+.search input[type=text]{
+    width:500px;
+    height:25px;
+    border-radius:25px;
+    border: 1px solid black;
+}
+
+.search{
+    display:flex;
+    margin:25px;
+    margin-right: 450px;
+    position: relative;
+    top: 3px;
+}
+
+.flex-containerMain{
+    padding: 50px;
+    display: flex;
+    
+    justify-content: center; 
+    align-items: flex-start;  
+    height: 100%;
+    
+
+}
+
+
+.Mi1{
+    flex-grow: 5;
+    flex-basis:60%;
+}
+
+.Mi2{
+    flex-grow:0;
+    flex-basis:20%;
+}
+
+.flex-container{
+    display: flex;
+    padding: 15px;
+    gap: 5px;
+    
+}
+
+.aside{
+    flex-basis: 15%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 20px;
+    justify-content: center; 
+    text-align:center;
+
+}
+
+.C1{
+    flex-grow:1;
+    flex-basis: auto;
+
+}
+
+section{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    padding: 20px;
+    justify-content: center; 
+    align-items: flex-end;
+    border-top: 1px solid black;
+}
+
+.aside button{
+    background-color: white;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+#flex-container img{
+    margin-bottom: 20px; 
+    margin: 12px; 
+    height: 80px;
+    width: 80px;
+    flex-wrap: wrap;
+    
+}

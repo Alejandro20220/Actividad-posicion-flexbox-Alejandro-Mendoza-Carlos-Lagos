@@ -1,0 +1,58 @@
+.flex-container1{
+  display: flex;
+  background-color: grey;
+}
+
+.Logo{
+  background-color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+.facebook{
+  background-color: white;
+  width: 55px;
+  margin: 10px;
+  text-align: center;
+  align-self: center
+}
+
+.twitter{
+  background-color: white;
+  width: 55px;
+  margin: 10px;
+  text-align: center;
+  align-self: center;
+}
+
+.instagram{
+  background-color: white;
+  width: 55px;
+  margin: 10px;
+  text-align: center;
+  align-self: center;
+}
+
+.flex-container2{
+  display: flex;
+  background-color: grey;
+  justify-content: end;
+}
+
+.oferta{
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+}
+
+.flex-container3{
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+}
+
+.pie{
+  display: flex;
+  justify-content: center;
+}
